@@ -1,0 +1,11 @@
+{
+    "chainId": 4690,
+    "entrypoint": "0xc3527348De07d591c9d567ce1998eFA2031B8675",
+    "webauthnValidator": "0xe2C03A87C78783d85C263B020E9AeFDa3525d69c",
+    "sessionKeyValidator": "0x9c0bCB161986d50013783003FDef76f1d3548F3A",
+    "accountFactory": "0xdC0a3eF76617794a944BAA1A21e863b1d9d94d8C",
+    "nftAddr": "0xA3Ce183b2EA38053f85A160857E6f6A8C10EF5f7",
+    "rpc": "https://babel-api.testnet.iotex.io",
+    "bundler": "https://bundler.testnet.w3bstream.com",
+    "paymaster": "https://paymaster.testnet.w3bstream.com/rpc/d98ecac885f4406d87517263b83cb237"
+}
