@@ -1,27 +1,9 @@
+import dynamic from "next/dynamic";
 import { NextPage } from "next";
-import { useAAWallet } from "~~/hooks/aa";
 
+const AACard = dynamic(async () => await import("~~/components/aaCard"), { ssr: false });
 const Demo: NextPage = () => {
-  const { address, createPasskey } = useAAWallet();
-  return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
-      address: {address}
-      {!address && (
-        <button
-          onClick={() => {
-            createPasskey();
-          }}
-        >
-          Create Account
-        </button>
-      )}
-    </div>
-  );
+  return <AACard />;
 };
 
 export default Demo;

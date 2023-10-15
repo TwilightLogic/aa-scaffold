@@ -1,8 +1,9 @@
+"use client";
+
 import { useLocalStorage } from "@uidotdev/usehooks";
 import { BigNumber, ethers } from "ethers";
 import { hexZeroPad } from "ethers/lib/utils";
-import { SessionKeySigner } from "smart-accounts/src/sessionkey";
-import { SmartAccount } from "smart-accounts/src/userop-builder";
+import { SessionKeySigner, SmartAccount } from "smart-accounts";
 import { Client, Presets } from "userop";
 import AAconfig from "~~/public/AAconfig.json";
 import { WebauthnSigner } from "~~/utils/aa/userop";
