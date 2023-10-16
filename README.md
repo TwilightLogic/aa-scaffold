@@ -35,7 +35,7 @@ yarn install
 yarn start
 ```
 
-🌟 Option: You can also make fun in it with EOA wallet
+🌟 Option: You can also make fun with it by using EOA wallet provided from Scaffold-eth-2
 
 ```
 yarn install
